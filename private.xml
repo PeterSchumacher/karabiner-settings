@@ -48,7 +48,12 @@
             KeyCode::KEY_9, ModifierFlag::SHIFT_R
         </autogen>
     </item>
-
-
-
+    <item>
+        <name>Simulate backslash by pressing left shift + keypad forwardslash</name>
+        <identifier>private.simulate_backslash_by_pressing_left_shift_L_keypad_forwardslash</identifier>
+        <autogen>__KeyToKey__
+            KeyCode::KEYPAD_SLASH, ModifierFlag::SHIFT_L,
+            KeyCode::KEY_7, ModifierFlag::OPTION_R, ModifierFlag::SHIFT_R
+        </autogen>
+    </item>
 </root>
